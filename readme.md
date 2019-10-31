@@ -2,6 +2,7 @@
 
 # References
 - [Part 1: Laravel 5.8 From Scratch: Intro, Setup , MVC Basics, and Views.](https://medium.com/@sagarmaheshwary31/laravel-5-8-from-scratch-intro-setup-mvc-basics-and-views-74d46f93fe0c)
+- [Part 2: Laravel 5.8 From Scratch: Config, ENV, Migrations, and Todos CRUD.](https://medium.com/@sagarmaheshwary31/laravel-5-8-from-scratch-config-env-migrations-and-todos-crud-7c771bcac802)
 - ...
 - [Github: Complete project source codes.](https://github.com/SagarMaheshwary/laravel-basics)
 
@@ -44,3 +45,5 @@ This is an example application built on Laravel and Bootstrap for beginners.
 ```
 
 > In Laravel, all the requests are directed to index.php in public directory so, if it does not work with your apache then create a virtual host or use dev server instead of opening it from http://localhost/your-laravel-project/public
+
+> Whenever you making changes to .env file then don’t forget to restart the server ( if you are using laravel dev server) and if you are using a virtual host and changes don’t seem to take effect then just run php artisan config:clear (This command will clear the configuration cache) in your terminal.

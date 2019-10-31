@@ -18,6 +18,9 @@
             </ul>
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="{{route('todos.index')}}" class="nav-link">Todos</a>
+                </li>
             </ul>
         </div>
     </div>
