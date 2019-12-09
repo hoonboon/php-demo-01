@@ -3,6 +3,7 @@
 # References
 - [Part 1: Laravel 5.8 From Scratch: Intro, Setup , MVC Basics, and Views.](https://medium.com/@sagarmaheshwary31/laravel-5-8-from-scratch-intro-setup-mvc-basics-and-views-74d46f93fe0c)
 - [Part 2: Laravel 5.8 From Scratch: Config, ENV, Migrations, and Todos CRUD.](https://medium.com/@sagarmaheshwary31/laravel-5-8-from-scratch-config-env-migrations-and-todos-crud-7c771bcac802)
+- [Part 3: Laravel 5.8 From Scratch: Authentication, Middleware, Email Verify, and Password Reset.](https://medium.com/@sagarmaheshwary31/laravel-5-8-from-scratch-authentication-middleware-email-verify-and-password-reset-93a4b2103794)
 - ...
 - [Github: Complete project source codes.](https://github.com/SagarMaheshwary/laravel-basics)
 

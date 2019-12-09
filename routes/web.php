@@ -27,3 +27,7 @@ Route::get('/about', 'PagesController@about')->name('pages.about');
 // Route::put('/todos/{id}','TodosController@update')->name('todos.update'); // making a put request
 // Route::delete('/todos/{id}','TodosController@destroy')->name('todos.destroy'); // making a delete request
 Route::resource('/todos','TodosController'); // single line to replace all the above
+
+Auth::routes(['verify' => true]);
+
+Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
