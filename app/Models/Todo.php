@@ -19,6 +19,9 @@ class Todo extends Model
      * 
      * @var boolean
      */
-     public $timestamps = true;
+    public $timestamps = true;
 
+    public function user() {
+        return $this->belongsTo('App\User');
+    }
 }

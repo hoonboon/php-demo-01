@@ -9,6 +9,7 @@
         @forelse($todos as $todo)
             <li class="list-group-item my-2">
                 <h5>{{$todo->title}}</h5>
+                <p class="float-right">Created by: {{$todo->user->name}}</p>
                 <p>{{str_limit($todo->body,20)}}</p>
                 <small class="float-right">{{$todo->created_at->diffForHumans()}}</small>
                 <a href="{{route('todos.show',$todo->id)}}">Read More</a>
